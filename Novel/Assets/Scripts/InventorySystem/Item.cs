@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 namespace InventorySystem
 {
     [CreateAssetMenu(fileName = "New Item", menuName = "Inventory System/Item")]
