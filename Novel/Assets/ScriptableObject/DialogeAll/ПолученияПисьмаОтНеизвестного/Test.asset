@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7613206a1c55d448ada9ee34aeb7f6, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogueText: gfgfdgdfgdfgdfg
+  name: gdfgdfgdfg
+  dialogueOptions:
+  - optionText: gdfgdfdfdfdfdfdfdf
+    nextDialogue: {fileID: 0}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: gdfgdfdfdfdfdfdfdfgfdgfgdfg
+    nextDialogue: {fileID: 0}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: gdfgdfdfdfdfdfdfdfgfdgfgdfggfdgdfgdf
+    nextDialogue: {fileID: 0}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: ggfgf
+    nextDialogue: {fileID: 0}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []

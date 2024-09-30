@@ -17,6 +17,9 @@
           <e p="ItemsAll" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="ButtonOption" t="Include">
+            <e p="ButtonAnimation.cs" t="Include" />
+          </e>
           <e p="Dialoges" t="Include">
             <e p="Dialogue.cs" t="Include" />
             <e p="DialogueManager.cs" t="Include" />

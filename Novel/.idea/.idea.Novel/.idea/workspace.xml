@@ -22,9 +22,8 @@
     <list default="true" id="ea3e3b1f-0fb6-4c9a-8da1-0b07b566e729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Сорроуфилд.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Сорроуфилд.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialoges/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialoges/DialogueManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventorySystem/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InventorySystem/Item.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventorySystem/PickableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventorySystem/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dialoges/DialogueManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonOption/ButtonAnimation.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +96,7 @@
       <workItem from="1727590269659" duration="9281000" />
       <workItem from="1727627299433" duration="3104000" />
       <workItem from="1727676185831" duration="391000" />
+      <workItem from="1727712613711" duration="833000" />
     </task>
     <servers />
   </component>
@@ -114,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
