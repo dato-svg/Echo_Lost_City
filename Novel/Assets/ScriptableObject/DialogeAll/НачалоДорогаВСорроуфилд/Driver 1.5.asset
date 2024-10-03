@@ -16,6 +16,8 @@ MonoBehaviour:
     \u043D\u0438\u0447\u0435\u0433\u043E \u0445\u043E\u0440\u043E\u0448\u0435\u0433\u043E
     \u043D\u0435\u0442."
   name: "\u0412\u043E\u0434\u0438\u0442\u0435\u043B\u044C"
+  characterSpriteLeft: {fileID: 21300000, guid: da0d1d14799ef8e4ea51854b607790e4, type: 3}
+  characterSpriteRight: {fileID: 0}
   dialogueOptions:
   - optionText: 
     nextDialogue: {fileID: 11400000, guid: 70105af11d06ea94a96578b556aa750b, type: 2}

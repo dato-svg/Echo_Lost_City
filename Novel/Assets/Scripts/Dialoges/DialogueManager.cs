@@ -13,13 +13,20 @@ public class DialogueManager : MonoBehaviour
     public Button continueButton;
     public GameObject dialogueNameObject;
 
+    public Image characterImageLeft;
+    public Image characterImageRight;
+    public Image characterImageCenter;
+
     public Dialogue currentDialogue;
-    public float textSpeed = 0.05f; 
+
+    public float textSpeed = 0.05f;
 
     private void Start()
     {
+        characterImageLeft.gameObject.SetActive(false);
+        characterImageRight.gameObject.SetActive(false);
+        characterImageCenter.gameObject.SetActive(false);
         continueButton.gameObject.SetActive(false);
-        dialogueNameObject.SetActive(false);
         ShowDialogue(currentDialogue);
     }
 
@@ -31,36 +38,67 @@ public class DialogueManager : MonoBehaviour
 
     private void ShowDialogue(Dialogue dialogue)
     {
-       
+        
         StopAllCoroutines();
         StartCoroutine(TypeDialogue(dialogue.GetDialogueText()));
 
      
-        if (string.IsNullOrEmpty(dialogue.name))
+        if (dialogue.characterSpriteLeft != null && dialogue.characterSpriteRight != null)
         {
-            dialogueNameObject.SetActive(false);  
+            
+            characterImageCenter.gameObject.SetActive(false);
+            characterImageLeft.gameObject.SetActive(true);
+            characterImageRight.gameObject.SetActive(true);
+            characterImageLeft.sprite = dialogue.characterSpriteLeft;
+            characterImageRight.sprite = dialogue.characterSpriteRight;
+        }
+        else if (dialogue.characterSpriteLeft != null || dialogue.characterSpriteRight != null)
+        {
+         
+            characterImageLeft.gameObject.SetActive(false);
+            characterImageRight.gameObject.SetActive(false);
+            characterImageCenter.gameObject.SetActive(true);
+
+            
+            if (dialogue.characterSpriteLeft != null)
+                characterImageCenter.sprite = dialogue.characterSpriteLeft;
+            else
+                characterImageCenter.sprite = dialogue.characterSpriteRight;
         }
         else
         {
-            dialogueNameObject.SetActive(true);  
+           
+            characterImageLeft.gameObject.SetActive(false);
+            characterImageRight.gameObject.SetActive(false);
+            characterImageCenter.gameObject.SetActive(false);
+        }
+
+        
+        if (string.IsNullOrEmpty(dialogue.name))
+        {
+            dialogueNameObject.SetActive(false);
+        }
+        else
+        {
+            dialogueNameObject.SetActive(true);
             dialogueNameUI.text = dialogue.name.ToString();
         }
 
-      
+        
         foreach (Transform child in optionsContainer)
         {
-            if (child.childCount != 0)
-                Destroy(child.gameObject);
+            Destroy(child.gameObject);
         }
 
         bool hasOptions = false;
 
-      
+        
         foreach (DialogueOption option in dialogue.GetDialogueOptions())
         {
             if (!string.IsNullOrEmpty(option.optionText))
             {
                 hasOptions = true;
+
                 GameObject newOption = Instantiate(optionPrefab, optionsContainer);
                 TextMeshProUGUI optionText = newOption.GetComponentInChildren<TextMeshProUGUI>();
                 optionText.text = option.optionText;
@@ -83,9 +121,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    
     private IEnumerator TypeDialogue(string dialogueText)
     {
-        dialogueTextUI.text = ""; 
+        dialogueTextUI.text = "";
         foreach (char letter in dialogueText.ToCharArray())
         {
             dialogueTextUI.text += letter;
@@ -93,6 +132,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+   
     private void ContinueDialogue(Dialogue currentDialogue)
     {
         DialogueOption nextOption = currentDialogue.GetDialogueOptions()[0];
@@ -106,6 +146,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+   
     private void OnOptionSelected(DialogueOption selectedOption)
     {
         selectedOption.onOptionSelected?.Invoke();

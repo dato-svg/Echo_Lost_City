@@ -20,7 +20,7 @@ namespace ButtonOption
             SetOpacity(normalOpacity);  
         }
 
-      
+        
         public void OnPointerEnter(PointerEventData eventData)
         {
             SetOpacity(hoverOpacity);

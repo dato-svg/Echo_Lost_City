@@ -21,6 +21,7 @@ MonoBehaviour:
     \u0434\u0435\u0440\u0436\u0438\u0442 \u0441\u0432\u043E\u0438\u0445 \u043B\u044E\u0434\u0435\u0439.
     \u0418 \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E \u043B\u044E\u0434\u0435\u0439."
   name: "\u0412\u043E\u0434\u0438\u0442\u0435\u043B\u044C"
+  characterSprite: {fileID: 21300000, guid: 33167d604c8a49747b5cf7e8a6480221, type: 3}
   dialogueOptions:
   - optionText: 
     nextDialogue: {fileID: 11400000, guid: 39bd40a3d130bce458f72fa1f2d91f1b, type: 2}

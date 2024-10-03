@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+  
 namespace Dialoges
 {
     [CreateAssetMenu(fileName = "NewDialogue", menuName = "Dialogue System/Dialogue")]
@@ -8,6 +8,10 @@ namespace Dialoges
     {
         [TextArea(3, 10)] public string dialogueText;
         public string name;
+        public Sprite characterSpriteLeft;
+        public Sprite characterSpriteRight;
+        
+
         public List<DialogueOption> dialogueOptions;
         
         
@@ -21,4 +25,4 @@ namespace Dialoges
             return dialogueOptions;
         }
     }
-}
+}  
