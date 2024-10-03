@@ -772,7 +772,7 @@ MonoBehaviour:
   optionPrefab: {fileID: 6906906703469582151, guid: ce954afbc630e5e41bcd3e6cadcfa70b, type: 3}
   continueButton: {fileID: 1850047272}
   dialogueNameObject: {fileID: 577268946}
-  currentDialogue: {fileID: 11400000, guid: 4ff5870450144424ca0414c60020bdee, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 688b24faf4ace0448a66df9ec6e1ce9c, type: 2}
   textSpeed: 0.04
 --- !u!4 &1080457742
 Transform:

@@ -8,7 +8,7 @@ namespace ButtonOption
     {
         public Image buttonImage;
         public float hoverOpacity = 1f;
-        public float normalOpacity = 0.5f; 
+        public float normalOpacity = 0.2f; 
         
         private void Start()
         {

@@ -18,7 +18,12 @@ MonoBehaviour:
     \u043C\u0435\u0440\u0442\u0432\u0435\u0446\u044B."
   name: "\u0414\u0430\u043D\u0438\u044D\u043B\u044C "
   dialogueOptions:
-  - optionText: 
+  - optionText: "\u0440\u0430\u043F\u0440\u0430\u043F\u0440"
+    nextDialogue: {fileID: 11400000, guid: 3511976f1208f8b4393f7f25b951c371, type: 2}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: "\u0440\u0430\u043F\u0440\u043F\u0430\u0440\u043F\u0430"
     nextDialogue: {fileID: 11400000, guid: 3511976f1208f8b4393f7f25b951c371, type: 2}
     onOptionSelected:
       m_PersistentCalls:
