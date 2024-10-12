@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7613206a1c55d448ada9ee34aeb7f6, type: 3}
+  m_Name: Unknown 1
+  m_EditorClassIdentifier: 
+  dialogueText: "\u0422\u044B \u043D\u0435 \u043E\u0442\u0441\u044E\u0434\u0430,
+    \u043F\u0440\u0430\u0432\u0434\u0430? \u041D\u0438\u043A\u0442\u043E \u0438\u0437
+    \u043C\u0435\u0441\u0442\u043D\u044B\u0445 \u043D\u0435 \u0445\u043E\u0434\u0438\u0442
+    \u0437\u0434\u0435\u0441\u044C \u0432 \u0442\u0430\u043A\u043E\u0435 \u0432\u0440\u0435\u043C\u044F"
+  name: Unknown
+  characterSpriteLeft: {fileID: 0}
+  characterSpriteRight: {fileID: 0}
+  dialogueOptions:
+  - optionText: "\u041F\u043E\u0447\u0435\u043C\u0443 \u0442\u044B \u043F\u0443\u0433\u0430\u0435\u0448\u044C
+      \u043C\u0435\u043D\u044F? \u0427\u0442\u043E \u0442\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u043E
+      \u043E\u0442 \u043C\u0435\u043D\u044F?"
+    nextDialogue: {fileID: 11400000, guid: ecaa4a86866f95749b9443a6862dde3e, type: 2}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: "\u042F \u043D\u0435 \u0431\u043E\u044E\u0441\u044C \u0442\u0435\u0431\u044F.
+      \u041A\u0442\u043E \u0442\u044B \u0442\u0430\u043A\u043E\u0439, \u0447\u0442\u043E\u0431\u044B
+      \u043C\u0435\u043D\u044F \u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0442\u044C?"
+    nextDialogue: {fileID: 11400000, guid: 54de0bf8048fb274d8545742a99b4a40, type: 2}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u043F\u0440\u0435\u0434\u0443\u043F\u0440\u0435\u0436\u0434\u0435\u043D\u0438\u0435,
+      \u043D\u043E \u0443 \u043C\u0435\u043D\u044F \u043D\u0435\u0442 \u0434\u0440\u0443\u0433\u043E\u0433\u043E
+      \u0432\u044B\u0431\u043E\u0440\u0430. \u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
+      \u043F\u0440\u043E\u0439\u0442\u0438."
+    nextDialogue: {fileID: 11400000, guid: 793fdf5cf860b1d448c5189613a70b8a, type: 2}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: "\u041C\u043E\u0436\u0435\u0442, \u0442\u044B \u0441\u0430\u043C
+      \u0438 \u0435\u0441\u0442\u044C \u0442\u043E, \u0447\u0435\u0433\u043E \u0441\u0442\u043E\u0438\u0442
+      \u0431\u043E\u044F\u0442\u044C\u0441\u044F? \u0417\u0430\u0447\u0435\u043C
+      \u0442\u044B \u043F\u0440\u044F\u0447\u0435\u0448\u044C\u0441\u044F \u0432
+      \u044D\u0442\u043E\u043C \u043B\u0435\u0441\u0443?"
+    nextDialogue: {fileID: 11400000, guid: 314f42b6bbfac034b8d2d29a33b56c5f, type: 2}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+  - optionText: "\u041C\u043E\u0436\u0435\u0442, \u043C\u043D\u0435 \u043F\u0440\u043E\u0441\u0442\u043E
+      \u0440\u0430\u0437\u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u0438
+      \u0443\u0439\u0442\u0438? \u0421\u0442\u043E\u0438\u0442 \u043B\u0438 \u044D\u0442\u043E
+      \u0442\u043E\u0433\u043E?"
+    nextDialogue: {fileID: 11400000, guid: 84e042121ea7e87409efc717d160b29d, type: 2}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 namespace Dialoges
 {
@@ -7,6 +8,7 @@ namespace Dialoges
     {
         [TextArea(2, 5)] public string optionText;
         public Dialogue nextDialogue;
-        public UnityEngine.Events.UnityEvent onOptionSelected;
+        public UnityEvent onOptionSelected;
     }
 }
+

@@ -10,7 +10,8 @@ namespace Dialoges
         public string name;
         public Sprite characterSpriteLeft;
         public Sprite characterSpriteRight;
-        
+        public bool hasSprite;
+       
 
         public List<DialogueOption> dialogueOptions;
         

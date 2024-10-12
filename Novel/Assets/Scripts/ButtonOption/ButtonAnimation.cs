@@ -26,13 +26,13 @@ namespace ButtonOption
             SetOpacity(hoverOpacity);
         }
 
-      
+        
         public void OnPointerExit(PointerEventData eventData)
         {
             SetOpacity(normalOpacity);  
         }
 
-       
+        
         private void SetOpacity(float opacity)
         {
             Color color = buttonImage.color;
