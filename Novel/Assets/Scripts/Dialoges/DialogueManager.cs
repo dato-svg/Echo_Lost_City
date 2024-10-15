@@ -10,7 +10,14 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueNameUI;
     public Transform optionsContainer;
     public GameObject optionPrefab;
+    public SettingManager settingManager;
+
+    public Button historyButton;
     public Button continueButton;
+    public Button nextButton;
+    public Button autoButton;
+    public Button settingButton;
+
     public GameObject dialogueNameObject;
 
     public Image characterImageLeft;
@@ -21,10 +28,12 @@ public class DialogueManager : MonoBehaviour
 
     public float textSpeed = 0.05f;
     public float fadeInDuration = 1f;
+    public float autoModeDelay = 2f;
 
-    public bool isTyping;
+    private bool isTyping;
+    public bool isAutoMode = false;
+
     private Coroutine typingCoroutine;
-
 
     private void Start()
     {
@@ -32,6 +41,10 @@ public class DialogueManager : MonoBehaviour
         characterImageRight.gameObject.SetActive(false);
         characterImageCenter.gameObject.SetActive(false);
         continueButton.gameObject.SetActive(false);
+
+        historyButton.onClick.AddListener(() => settingManager.ActiveCurrentChild(0));
+        settingButton.onClick.AddListener(() => settingManager.ActiveCurrentChild(1));
+        autoButton.onClick.AddListener(ToggleAutoMode);
         ShowDialogue(currentDialogue);
     }
 
@@ -47,48 +60,12 @@ public class DialogueManager : MonoBehaviour
         StopAllCoroutines();
         typingCoroutine = StartCoroutine(TypeDialogue(dialogue.GetDialogueText()));
 
-        if (dialogue.characterSpriteLeft != null && dialogue.characterSpriteRight != null)
-        {
-            characterImageCenter.gameObject.SetActive(false);
-            characterImageLeft.gameObject.SetActive(true);
-            characterImageRight.gameObject.SetActive(true);
-            characterImageLeft.sprite = dialogue.characterSpriteLeft;
-            characterImageRight.sprite = dialogue.characterSpriteRight;
-
-
-            StartCoroutine(FadeInCharacterImage(characterImageLeft, dialogue));
-            StartCoroutine(FadeInCharacterImage(characterImageRight, dialogue));
-        }
-        else if (dialogue.characterSpriteLeft != null || dialogue.characterSpriteRight != null)
-        {   
-            characterImageLeft.gameObject.SetActive(false);
-            characterImageRight.gameObject.SetActive(false);
-            characterImageCenter.gameObject.SetActive(true);
-
-            if (dialogue.characterSpriteLeft != null)
-            {
-                characterImageCenter.sprite = dialogue.characterSpriteLeft;
-            }
-            else
-            {
-                characterImageCenter.sprite = dialogue.characterSpriteRight;
-            }
-
-            StartCoroutine(FadeInCharacterImage(characterImageCenter, dialogue));
-        }
-        else
-        {
-            characterImageLeft.gameObject.SetActive(false);
-            characterImageRight.gameObject.SetActive(false);
-            characterImageCenter.gameObject.SetActive(false);
-        }
-
         if (string.IsNullOrEmpty(dialogue.name))
         {
             dialogueNameObject.SetActive(false);
         }
         else
-        {   
+        {
             dialogueNameObject.SetActive(true);
             dialogueNameUI.text = dialogue.name.ToString();
         }
@@ -99,7 +76,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         bool hasOptions = false;
-        
+
         foreach (DialogueOption option in dialogue.GetDialogueOptions())
         {
             option.onOptionSelected?.Invoke();
@@ -119,12 +96,21 @@ public class DialogueManager : MonoBehaviour
         if (!hasOptions)
         {
             continueButton.gameObject.SetActive(true);
+            nextButton.onClick.RemoveAllListeners();
             continueButton.onClick.RemoveAllListeners();
             continueButton.onClick.AddListener(() => ContinueDialogue(dialogue));
+            nextButton.onClick.AddListener(() => ContinueDialogue(dialogue));
+
+            if (isAutoMode)
+            {
+                StartCoroutine(AutoContinueDialogue(dialogue));
+            }
         }
+
         else
         {
             continueButton.gameObject.SetActive(false);
+            nextButton.onClick.RemoveAllListeners();
         }
     }
 
@@ -147,7 +133,6 @@ public class DialogueManager : MonoBehaviour
             color.a = 1f;
             image.color = color;
             yield break;
-
         }
 
         color.a = 0f;
@@ -165,16 +150,32 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    private IEnumerator AutoContinueDialogue(Dialogue currentDialogue)
+    {
+       
+        while (isAutoMode)
+        {
+            if (!isTyping && currentDialogue != null)
+            {
+                yield return new WaitForSeconds(autoModeDelay);
+                ContinueDialogue(currentDialogue);
+                yield break;
+            }
+            yield return null;
+        }
+       
+    }
+
+
     private void ContinueDialogue(Dialogue currentDialogue)
     {
-         if (isTyping)
+        if (isTyping)
         {
             StopCoroutine(typingCoroutine);
             dialogueTextUI.text = currentDialogue.GetDialogueText();
             isTyping = false;
-
         }
-         else
+        else
         {
             DialogueOption nextOption = currentDialogue.GetDialogueOptions()[0];
             if (nextOption.nextDialogue != null)
@@ -187,7 +188,11 @@ public class DialogueManager : MonoBehaviour
             }
             isTyping = true;
         }
-       
+
+        if (isAutoMode)
+        {
+            StartCoroutine(AutoContinueDialogue(currentDialogue));
+        }
     }
 
     private void OnOptionSelected(DialogueOption selectedOption)
@@ -214,5 +219,33 @@ public class DialogueManager : MonoBehaviour
 
         continueButton.gameObject.SetActive(false);
     }
-}
 
+    private void ToggleAutoMode()
+    {
+       
+        if(isAutoMode == false)
+        {
+            isAutoMode = true;
+        }
+        else
+        {
+            isAutoMode = false;
+        }
+
+        if (isAutoMode)
+        {
+            Debug.Log("Auto mode ON");
+
+            if (currentDialogue != null)
+            {
+                StartCoroutine(AutoContinueDialogue(currentDialogue));
+                Debug.Log("AutoContinue Dialogue");
+            }
+        }
+
+        else
+        {
+            Debug.Log("Auto mode OFF");
+        }
+    }
+}
