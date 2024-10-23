@@ -1,12 +1,38 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SettingManager : MonoBehaviour
 {
     public List<SettingChild>  settingChildren = new List<SettingChild>();
     public SettingParent settingParent;
+    [Space]
+    public GameObject prefabsSound;
+    public BackGroundMusicController musicController;
 
+    public Slider soundSlider;
+    public Slider musicSlider;
+
+    public float defalut = 1;
+
+    public void ChangeSound()
+    {
+        prefabsSound.GetComponent<AudioSource>().volume = soundSlider.value;
+    }
+
+    public void ChangeBackgroundMusic()
+    {
+        musicController.GetComponent<AudioSource>().volume = musicSlider.value;
+    }
+
+
+    public void DefaultSlider()
+    {
+        soundSlider.value = defalut;
+        musicSlider.value = defalut;
+        ChangeSound();
+        ChangeBackgroundMusic();
+    }
 
     public void ActiveCurrentChild(int index)
     {
@@ -18,6 +44,14 @@ public class SettingManager : MonoBehaviour
         }
         settingChildren[index].transform.localScale = Vector3.one;
         Time.timeScale = 0.000001f;
+    }
+
+    public void OpenSettings()
+    {
+        settingChildren[0].transform.localScale = Vector3.zero;
+        settingChildren[2].transform.localScale = Vector3.zero;
+        settingChildren[3].transform.localScale = Vector3.zero;
+        settingChildren[1].transform.localScale = Vector3.one;
     }
 
     public void DisableMenu()

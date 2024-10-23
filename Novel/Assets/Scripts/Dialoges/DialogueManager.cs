@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using Dialoges;
 using TMPro;
 using UnityEngine;
@@ -11,32 +12,48 @@ public class DialogueManager : MonoBehaviour
     public Transform optionsContainer;
     public GameObject optionPrefab;
     public SettingManager settingManager;
-
+    [Space]
+    [Header("КНОПКИ")][Space]
     public Button historyButton;
     public Button continueButton;
     public Button nextButton;
     public Button autoButton;
     public Button settingButton;
 
+    [Header("обеькты")][Space]
     public GameObject dialogueNameObject;
 
+    [Header("история")][Space]
+    public GameObject ContentParent;
+    public GameObject dialoguePrefab;
+
+    [Header("картинки")] [Space]
     public Image characterImageLeft;
     public Image characterImageRight;
     public Image characterImageCenter;
 
     public Dialogue currentDialogue;
 
+    [Header("Числа")][Space]
     public float textSpeed = 0.05f;
+    public float defaultSpeed = 0.05f;
+    public float defaultAutoSpeed = 1;
     public float fadeInDuration = 1f;
     public float autoModeDelay = 2f;
 
+    [Header("Слайдер")]
+    [Space]
+    public Slider textSpeedSlider;
+    public Slider AwtoTextSpeedSlider;
+
     private bool isTyping;
-    public bool isAutoMode = false;
+    private bool isAutoMode = false;
 
     private Coroutine typingCoroutine;
 
     private void Start()
     {
+        DefaultSlider();
         characterImageLeft.gameObject.SetActive(false);
         characterImageRight.gameObject.SetActive(false);
         characterImageCenter.gameObject.SetActive(false);
@@ -59,6 +76,11 @@ public class DialogueManager : MonoBehaviour
         isTyping = true;
         StopAllCoroutines();
         typingCoroutine = StartCoroutine(TypeDialogue(dialogue.GetDialogueText()));
+        GameObject historiObj = Instantiate(dialoguePrefab);
+        historiObj.transform.parent = ContentParent.transform;
+        historiObj.GetComponent<ButtonHistory>().name = dialogue.name;
+        historiObj.GetComponent<ButtonHistory>().text = dialogue.dialogueText;
+        currentDialogue = dialogue;
 
         if (string.IsNullOrEmpty(dialogue.name))
         {
@@ -248,4 +270,24 @@ public class DialogueManager : MonoBehaviour
             Debug.Log("Auto mode OFF");
         }
     }
+
+    public void ChangeTextSpeed()
+    {
+        textSpeed = textSpeedSlider.value;
+    }
+
+    public void ChangeAwtoSpeed()
+    {
+        autoModeDelay = AwtoTextSpeedSlider.value;
+    }
+
+    public void DefaultSlider()
+    {
+        textSpeedSlider.value = defaultSpeed;
+        AwtoTextSpeedSlider.value = defaultAutoSpeed;
+    }
+
+
+   
+
 }
