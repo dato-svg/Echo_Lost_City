@@ -11,6 +11,7 @@ public class SaveLoadManager : MonoBehaviour
     public Button cancelButton;
 
     public bool canChange;
+    public ScreenshotHandler cunnentSave;
 
     private string saveDirectoryPath;
     private int currentSlot;
@@ -41,12 +42,10 @@ public class SaveLoadManager : MonoBehaviour
         if (File.Exists(filePath))
         {
             confirmationPanel.SetActive(true);
-            canChange = false;
         }
         else
         {
-            PerformSaveGame(slot);
-            canChange = true;
+            OnConfirmDelete();
         }
     }
 
@@ -64,6 +63,7 @@ public class SaveLoadManager : MonoBehaviour
 
         File.WriteAllText(filePath, json);
         Debug.Log("Игра сохранена в слот " + slot);
+        dialogueManager.settingManager.DisableMenu();
     }
 
     public void LoadGame(int slot)
@@ -72,7 +72,7 @@ public class SaveLoadManager : MonoBehaviour
 
         if (!File.Exists(filePath))
         {
-            Debug.LogError("Нет сохранения в этом слоте!");
+            Debug.Log("Нет сохранения в этом слоте!");
             return;
         }
 
@@ -97,19 +97,23 @@ public class SaveLoadManager : MonoBehaviour
         return Path.Combine(saveDirectoryPath, $"SaveSlot_{slot}.json");
     }
 
- 
+    
     private void OnConfirmDelete()
     {
+        canChange = true;
         confirmationPanel.SetActive(false);
         PerformSaveGame(currentSlot);
         dialogueManager.settingManager.DisableMenu();
+     
     }
 
-  
+    
     private void OnCancelDelete()
     {
         confirmationPanel.SetActive(false); 
         Debug.Log("Удаление отменено. Сохранение не было перезаписано.");
         dialogueManager.settingManager.DisableMenu();
+        canChange = false; 
+        cunnentSave = null;
     }
 }

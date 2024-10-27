@@ -19,7 +19,7 @@ public class ScreenshotHandler : MonoBehaviour
     
 
 
-    private void Start()
+    private  void Start()
     {
         gameObjectName = gameObject.name;
         iconSlotSave = GetComponent<Image>();
@@ -34,11 +34,14 @@ public class ScreenshotHandler : MonoBehaviour
 
     public void ChangeIcon()
     {
+     
         StartCoroutine(CaptureScreenshot());
     }
 
     private IEnumerator CaptureScreenshot()
     {
+        saveload.cunnentSave = GetComponent<ScreenshotHandler>();
+        yield return new WaitForSeconds(0.5f);
         if (saveload.canChange)
         {
             string fileName = $"Screenshot_{System.DateTime.Now:yyyy-MM-dd_HH-mm-ss}.png";
@@ -67,6 +70,7 @@ public class ScreenshotHandler : MonoBehaviour
             {
                 Debug.Log("Не удалось загрузить текстуру.");
             }
+            saveload.cunnentSave = null;
         }
 
         else 

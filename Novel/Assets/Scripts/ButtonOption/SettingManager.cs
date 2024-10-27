@@ -15,14 +15,25 @@ public class SettingManager : MonoBehaviour
 
     public float defalut = 1;
 
+    public void Start()
+    {
+        prefabsSound.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("ChangeSound");
+        musicController.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("ChangeMusic");
+
+        soundSlider.value = prefabsSound.GetComponent<AudioSource>().volume;
+        musicSlider.value = musicController.GetComponent<AudioSource>().volume;
+    }
+
     public void ChangeSound()
     {
         prefabsSound.GetComponent<AudioSource>().volume = soundSlider.value;
+        PlayerPrefs.SetFloat("ChangeSound", prefabsSound.GetComponent<AudioSource>().volume);
     }
 
     public void ChangeBackgroundMusic()
     {
         musicController.GetComponent<AudioSource>().volume = musicSlider.value;
+        PlayerPrefs.SetFloat("ChangeMusic", musicController.GetComponent<AudioSource>().volume);
     }
 
 

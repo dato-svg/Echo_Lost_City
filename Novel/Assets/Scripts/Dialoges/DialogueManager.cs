@@ -53,7 +53,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
-        DefaultSlider();
+        
         characterImageLeft.gameObject.SetActive(false);
         characterImageRight.gameObject.SetActive(false);
         characterImageCenter.gameObject.SetActive(false);
@@ -63,6 +63,12 @@ public class DialogueManager : MonoBehaviour
         settingButton.onClick.AddListener(() => settingManager.ActiveCurrentChild(1));
         autoButton.onClick.AddListener(ToggleAutoMode);
         ShowDialogue(currentDialogue);
+
+        textSpeed = PlayerPrefs.GetFloat("TextSpeed");
+        autoModeDelay = PlayerPrefs.GetFloat("AutoSpeed");
+
+        textSpeedSlider.value = textSpeed;
+        AwtoTextSpeedSlider.value = autoModeDelay;
     }
 
     public void StartDialogue(Dialogue startingDialogue)
@@ -274,11 +280,15 @@ public class DialogueManager : MonoBehaviour
     public void ChangeTextSpeed()
     {
         textSpeed = textSpeedSlider.value;
+        PlayerPrefs.SetFloat("TextSpeed", textSpeed);
+        Debug.Log("ChangeText//" + textSpeed);
     }
 
     public void ChangeAwtoSpeed()
     {
         autoModeDelay = AwtoTextSpeedSlider.value;
+        PlayerPrefs.SetFloat("AutoSpeed",autoModeDelay);
+        Debug.Log("ChangeAutoText//" + autoModeDelay);
     }
 
     public void DefaultSlider()

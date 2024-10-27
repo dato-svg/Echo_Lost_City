@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 29444}
   - component: {fileID: 29443}
   - component: {fileID: 29445}
+  - component: {fileID: 29446}
   m_Layer: 5
   m_Name: Skip
   m_TagString: Untagged
@@ -244,6 +245,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &29446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 0
+  hasText: 0
+  hasScale: 0
 --- !u!1 &2552425
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +273,7 @@ GameObject:
   - component: {fileID: 2552428}
   - component: {fileID: 2552427}
   - component: {fileID: 2552429}
+  - component: {fileID: 2552430}
   m_Layer: 5
   m_Name: NO
   m_TagString: Untagged
@@ -365,6 +383,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2552430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2552425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.2
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 0
 --- !u!1 &5246167
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +577,7 @@ GameObject:
   - component: {fileID: 32693234}
   - component: {fileID: 32693236}
   - component: {fileID: 32693237}
+  - component: {fileID: 32693238}
   m_Layer: 5
   m_Name: Image (2)45
   m_TagString: Untagged
@@ -676,11 +711,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 208758114}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &32693238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32693232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &32754676
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,6 +744,7 @@ GameObject:
   - component: {fileID: 32754679}
   - component: {fileID: 32754678}
   - component: {fileID: 32754680}
+  - component: {fileID: 32754681}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -813,6 +865,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &32754681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32754676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &57366470
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +1012,7 @@ GameObject:
   - component: {fileID: 60684859}
   - component: {fileID: 60684858}
   - component: {fileID: 60684857}
+  - component: {fileID: 60684860}
   m_Layer: 5
   m_Name: 9
   m_TagString: Untagged
@@ -1123,6 +1192,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60684855}
   m_CullTransparentMesh: 1
+--- !u!114 &60684860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60684855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &64363742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1220,7 @@ GameObject:
   - component: {fileID: 64363745}
   - component: {fileID: 64363744}
   - component: {fileID: 64363746}
+  - component: {fileID: 64363747}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -1255,6 +1341,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &64363747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64363742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &84489328
 GameObject:
   m_ObjectHideFlags: 0
@@ -1402,6 +1504,7 @@ GameObject:
   - component: {fileID: 90945695}
   - component: {fileID: 90945697}
   - component: {fileID: 90945698}
+  - component: {fileID: 90945699}
   m_Layer: 5
   m_Name: Image (2)57
   m_TagString: Untagged
@@ -1535,11 +1638,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1855258009}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &90945699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90945693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &92725228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1672,7 @@ GameObject:
   - component: {fileID: 92725230}
   - component: {fileID: 92725232}
   - component: {fileID: 92725233}
+  - component: {fileID: 92725234}
   m_Layer: 5
   m_Name: Image (2)39
   m_TagString: Untagged
@@ -1686,11 +1806,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1251357068}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &92725234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92725228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &110987345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,6 +1840,7 @@ GameObject:
   - component: {fileID: 110987347}
   - component: {fileID: 110987349}
   - component: {fileID: 110987350}
+  - component: {fileID: 110987351}
   m_Layer: 5
   m_Name: Image (4)5
   m_TagString: Untagged
@@ -1842,6 +1979,22 @@ MonoBehaviour:
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &110987351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110987345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &116149938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,6 +2008,7 @@ GameObject:
   - component: {fileID: 116149940}
   - component: {fileID: 116149942}
   - component: {fileID: 116149943}
+  - component: {fileID: 116149944}
   m_Layer: 5
   m_Name: Image (5)54
   m_TagString: Untagged
@@ -1988,11 +2142,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1247439483}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &116149944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116149938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &121854146
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,6 +2176,7 @@ GameObject:
   - component: {fileID: 121854148}
   - component: {fileID: 121854150}
   - component: {fileID: 121854151}
+  - component: {fileID: 121854152}
   m_Layer: 5
   m_Name: Image43
   m_TagString: Untagged
@@ -2139,11 +2310,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 717163780}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &121854152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121854146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &133707351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,6 +2478,7 @@ GameObject:
   - component: {fileID: 143791379}
   - component: {fileID: 143791381}
   - component: {fileID: 143791382}
+  - component: {fileID: 143791383}
   m_Layer: 5
   m_Name: Image (5)30
   m_TagString: Untagged
@@ -2424,11 +2612,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1888627913}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &143791383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143791377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &158630442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2645,7 @@ GameObject:
   - component: {fileID: 158630445}
   - component: {fileID: 158630444}
   - component: {fileID: 158630446}
+  - component: {fileID: 158630447}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -2561,6 +2766,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &158630447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158630442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &182911701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,6 +2795,7 @@ GameObject:
   - component: {fileID: 182911703}
   - component: {fileID: 182911705}
   - component: {fileID: 182911706}
+  - component: {fileID: 182911707}
   m_Layer: 5
   m_Name: Image (3)34
   m_TagString: Untagged
@@ -2707,11 +2929,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1005356021}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &182911707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182911701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &192165217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,6 +2962,7 @@ GameObject:
   - component: {fileID: 192165220}
   - component: {fileID: 192165219}
   - component: {fileID: 192165221}
+  - component: {fileID: 192165222}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2844,6 +3083,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &192165222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192165217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &199677755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2931,6 +3186,7 @@ GameObject:
   - component: {fileID: 202933740}
   - component: {fileID: 202933739}
   - component: {fileID: 202933741}
+  - component: {fileID: 202933742}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -3051,6 +3307,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &202933742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202933737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &208758112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,6 +3335,7 @@ GameObject:
   - component: {fileID: 208758115}
   - component: {fileID: 208758114}
   - component: {fileID: 208758116}
+  - component: {fileID: 208758117}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -3183,6 +3456,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &208758117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208758112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &215441282
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,6 +3484,7 @@ GameObject:
   - component: {fileID: 215441285}
   - component: {fileID: 215441284}
   - component: {fileID: 215441286}
+  - component: {fileID: 215441287}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -3315,6 +3605,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &215441287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215441282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &220851641
 GameObject:
   m_ObjectHideFlags: 0
@@ -3327,6 +3633,7 @@ GameObject:
   - component: {fileID: 220851644}
   - component: {fileID: 220851643}
   - component: {fileID: 220851645}
+  - component: {fileID: 220851646}
   m_Layer: 5
   m_Name: Load
   m_TagString: Untagged
@@ -3448,6 +3755,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &220851646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220851641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 0
+  hasText: 0
+  hasScale: 0
 --- !u!1 &227253334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,6 +3928,7 @@ GameObject:
   - component: {fileID: 230405677}
   - component: {fileID: 230405676}
   - component: {fileID: 230405678}
+  - component: {fileID: 230405679}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -3725,6 +4049,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &230405679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230405674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &245181147
 GameObject:
   m_ObjectHideFlags: 0
@@ -3738,6 +4078,7 @@ GameObject:
   - component: {fileID: 245181149}
   - component: {fileID: 245181151}
   - component: {fileID: 245181152}
+  - component: {fileID: 245181153}
   m_Layer: 5
   m_Name: Image (1)50
   m_TagString: Untagged
@@ -3871,11 +4212,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 2016760111}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &245181153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245181147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &263474110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3957,6 +4314,7 @@ GameObject:
   - component: {fileID: 270132348}
   - component: {fileID: 270132350}
   - component: {fileID: 270132351}
+  - component: {fileID: 270132352}
   m_Layer: 5
   m_Name: Image (5)18
   m_TagString: Untagged
@@ -4090,11 +4448,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1335529939}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &270132352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270132346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &278642689
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,6 +4481,7 @@ GameObject:
   - component: {fileID: 278642692}
   - component: {fileID: 278642691}
   - component: {fileID: 278642693}
+  - component: {fileID: 278642694}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -4227,6 +4602,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &278642694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278642689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &278875413
 GameObject:
   m_ObjectHideFlags: 0
@@ -4239,6 +4630,7 @@ GameObject:
   - component: {fileID: 278875416}
   - component: {fileID: 278875415}
   - component: {fileID: 278875417}
+  - component: {fileID: 278875418}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -4359,6 +4751,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &278875418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278875413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &286461771
 GameObject:
   m_ObjectHideFlags: 0
@@ -4371,6 +4779,7 @@ GameObject:
   - component: {fileID: 286461774}
   - component: {fileID: 286461773}
   - component: {fileID: 286461775}
+  - component: {fileID: 286461776}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -4491,6 +4900,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &286461776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286461771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &299672125
 GameObject:
   m_ObjectHideFlags: 0
@@ -4637,6 +5062,7 @@ GameObject:
   - component: {fileID: 313019614}
   - component: {fileID: 313019613}
   - component: {fileID: 313019615}
+  - component: {fileID: 313019616}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4757,6 +5183,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &313019616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313019611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &323392463
 GameObject:
   m_ObjectHideFlags: 0
@@ -4770,6 +5212,7 @@ GameObject:
   - component: {fileID: 323392465}
   - component: {fileID: 323392467}
   - component: {fileID: 323392468}
+  - component: {fileID: 323392469}
   m_Layer: 5
   m_Name: Image (3)22
   m_TagString: Untagged
@@ -4903,11 +5346,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1414561597}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &323392469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323392463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &338691064
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,6 +5611,7 @@ GameObject:
   - component: {fileID: 349646680}
   - component: {fileID: 349646679}
   - component: {fileID: 349646681}
+  - component: {fileID: 349646682}
   m_Layer: 5
   m_Name: 6
   m_TagString: Untagged
@@ -5331,6 +5791,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &349646682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349646677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &388087956
 GameObject:
   m_ObjectHideFlags: 0
@@ -5475,6 +5951,7 @@ GameObject:
   - component: {fileID: 410348506}
   - component: {fileID: 410348505}
   - component: {fileID: 410348507}
+  - component: {fileID: 410348508}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -5595,6 +6072,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &410348508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410348503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &426375166
 GameObject:
   m_ObjectHideFlags: 0
@@ -5607,6 +6100,7 @@ GameObject:
   - component: {fileID: 426375169}
   - component: {fileID: 426375168}
   - component: {fileID: 426375170}
+  - component: {fileID: 426375171}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -5786,6 +6280,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &426375171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426375166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &426399593
 GameObject:
   m_ObjectHideFlags: 0
@@ -5798,6 +6308,7 @@ GameObject:
   - component: {fileID: 426399596}
   - component: {fileID: 426399595}
   - component: {fileID: 426399597}
+  - component: {fileID: 426399598}
   m_Layer: 5
   m_Name: 9
   m_TagString: Untagged
@@ -5977,6 +6488,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &426399598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426399593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &458683086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6101,6 +6628,7 @@ GameObject:
   - component: {fileID: 470189725}
   - component: {fileID: 470189724}
   - component: {fileID: 470189726}
+  - component: {fileID: 470189727}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -6221,6 +6749,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &470189727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470189722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &474386413
 GameObject:
   m_ObjectHideFlags: 0
@@ -6233,6 +6777,7 @@ GameObject:
   - component: {fileID: 474386416}
   - component: {fileID: 474386415}
   - component: {fileID: 474386417}
+  - component: {fileID: 474386418}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -6353,6 +6898,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &474386418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474386413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &478364876
 GameObject:
   m_ObjectHideFlags: 0
@@ -6366,6 +6927,7 @@ GameObject:
   - component: {fileID: 478364878}
   - component: {fileID: 478364880}
   - component: {fileID: 478364881}
+  - component: {fileID: 478364882}
   m_Layer: 5
   m_Name: Image (5)36
   m_TagString: Untagged
@@ -6499,11 +7061,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 979339325}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &478364882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478364876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &490703434
 GameObject:
   m_ObjectHideFlags: 0
@@ -6650,6 +7228,7 @@ GameObject:
   - component: {fileID: 499086325}
   - component: {fileID: 499086324}
   - component: {fileID: 499086326}
+  - component: {fileID: 499086327}
   m_Layer: 5
   m_Name: Save
   m_TagString: Untagged
@@ -6771,6 +7350,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &499086327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499086322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 0
+  hasText: 0
+  hasScale: 0
 --- !u!1 &518317813
 GameObject:
   m_ObjectHideFlags: 0
@@ -6922,6 +7517,7 @@ GameObject:
   - component: {fileID: 521474387}
   - component: {fileID: 521474389}
   - component: {fileID: 521474390}
+  - component: {fileID: 521474391}
   m_Layer: 5
   m_Name: Image (4)53
   m_TagString: Untagged
@@ -7055,11 +7651,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 278875415}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &521474391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521474385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &525830649
 GameObject:
   m_ObjectHideFlags: 0
@@ -7226,6 +7838,7 @@ GameObject:
   - component: {fileID: 530590716}
   - component: {fileID: 530590718}
   - component: {fileID: 530590719}
+  - component: {fileID: 530590720}
   m_Layer: 5
   m_Name: Image19
   m_TagString: Untagged
@@ -7359,11 +7972,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 541450375}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &530590720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530590714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &536251127
 GameObject:
   m_ObjectHideFlags: 0
@@ -7452,6 +8081,7 @@ GameObject:
   - component: {fileID: 536820769}
   - component: {fileID: 536820768}
   - component: {fileID: 536820767}
+  - component: {fileID: 536820770}
   m_Layer: 5
   m_Name: 5
   m_TagString: Untagged
@@ -7631,6 +8261,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536820765}
   m_CullTransparentMesh: 1
+--- !u!114 &536820770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536820765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &541450373
 GameObject:
   m_ObjectHideFlags: 0
@@ -7643,6 +8289,7 @@ GameObject:
   - component: {fileID: 541450376}
   - component: {fileID: 541450375}
   - component: {fileID: 541450377}
+  - component: {fileID: 541450378}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -7763,6 +8410,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &541450378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541450373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &541639682
 GameObject:
   m_ObjectHideFlags: 0
@@ -7894,6 +8557,7 @@ GameObject:
   - component: {fileID: 555567120}
   - component: {fileID: 555567119}
   - component: {fileID: 555567121}
+  - component: {fileID: 555567122}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -8014,6 +8678,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &555567122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555567117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &573441843
 GameObject:
   m_ObjectHideFlags: 0
@@ -8027,6 +8707,7 @@ GameObject:
   - component: {fileID: 573441845}
   - component: {fileID: 573441847}
   - component: {fileID: 573441848}
+  - component: {fileID: 573441849}
   m_Layer: 5
   m_Name: Image (5)12
   m_TagString: Untagged
@@ -8160,11 +8841,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1013176935}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &573441849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573441843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &577268946
 GameObject:
   m_ObjectHideFlags: 0
@@ -8253,6 +8950,7 @@ GameObject:
   - component: {fileID: 581287634}
   - component: {fileID: 581287633}
   - component: {fileID: 581287635}
+  - component: {fileID: 581287636}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -8373,6 +9071,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &581287636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581287631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &582716782
 GameObject:
   m_ObjectHideFlags: 0
@@ -8640,6 +9354,7 @@ GameObject:
   - component: {fileID: 607566841}
   - component: {fileID: 607566843}
   - component: {fileID: 607566844}
+  - component: {fileID: 607566845}
   m_Layer: 5
   m_Name: Image (2)3
   m_TagString: Untagged
@@ -8778,6 +9493,22 @@ MonoBehaviour:
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &607566845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607566839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &609983753
 GameObject:
   m_ObjectHideFlags: 0
@@ -8790,6 +9521,7 @@ GameObject:
   - component: {fileID: 609983756}
   - component: {fileID: 609983755}
   - component: {fileID: 609983757}
+  - component: {fileID: 609983758}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -8910,6 +9642,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &609983758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609983753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &610073240
 GameObject:
   m_ObjectHideFlags: 0
@@ -9041,6 +9789,7 @@ GameObject:
   - component: {fileID: 619337581}
   - component: {fileID: 619337580}
   - component: {fileID: 619337582}
+  - component: {fileID: 619337583}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -9161,6 +9910,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &619337583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619337578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &624622703
 GameObject:
   m_ObjectHideFlags: 0
@@ -9174,6 +9939,7 @@ GameObject:
   - component: {fileID: 624622705}
   - component: {fileID: 624622707}
   - component: {fileID: 624622708}
+  - component: {fileID: 624622709}
   m_Layer: 5
   m_Name: Image (3)46
   m_TagString: Untagged
@@ -9307,11 +10073,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 751154102}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &624622709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624622703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &634531743
 GameObject:
   m_ObjectHideFlags: 0
@@ -9325,6 +10107,7 @@ GameObject:
   - component: {fileID: 634531745}
   - component: {fileID: 634531747}
   - component: {fileID: 634531748}
+  - component: {fileID: 634531749}
   m_Layer: 5
   m_Name: Image25
   m_TagString: Untagged
@@ -9458,11 +10241,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 192165219}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &634531749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634531743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &645781462
 GameObject:
   m_ObjectHideFlags: 0
@@ -9476,6 +10275,7 @@ GameObject:
   - component: {fileID: 645781464}
   - component: {fileID: 645781466}
   - component: {fileID: 645781467}
+  - component: {fileID: 645781468}
   m_Layer: 5
   m_Name: Image (2)9
   m_TagString: Untagged
@@ -9609,11 +10409,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 278642691}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &645781468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645781462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &655261543
 GameObject:
   m_ObjectHideFlags: 0
@@ -9626,6 +10442,7 @@ GameObject:
   - component: {fileID: 655261546}
   - component: {fileID: 655261545}
   - component: {fileID: 655261547}
+  - component: {fileID: 655261548}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -9746,6 +10563,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &655261548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655261543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &660401772
 GameObject:
   m_ObjectHideFlags: 0
@@ -9759,6 +10592,7 @@ GameObject:
   - component: {fileID: 660401774}
   - component: {fileID: 660401776}
   - component: {fileID: 660401777}
+  - component: {fileID: 660401778}
   m_Layer: 5
   m_Name: Image (4)23
   m_TagString: Untagged
@@ -9892,11 +10726,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 2116391589}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &660401778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660401772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &663389195
 GameObject:
   m_ObjectHideFlags: 0
@@ -10080,6 +10930,7 @@ GameObject:
   - component: {fileID: 674836733}
   - component: {fileID: 674836735}
   - component: {fileID: 674836736}
+  - component: {fileID: 674836737}
   m_Layer: 5
   m_Name: Image 1
   m_TagString: Untagged
@@ -10218,6 +11069,22 @@ MonoBehaviour:
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &674836737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674836731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &688463697
 GameObject:
   m_ObjectHideFlags: 0
@@ -10230,6 +11097,7 @@ GameObject:
   - component: {fileID: 688463700}
   - component: {fileID: 688463699}
   - component: {fileID: 688463701}
+  - component: {fileID: 688463702}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -10409,6 +11277,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &688463702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688463697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &694959162
 GameObject:
   m_ObjectHideFlags: 0
@@ -10966,6 +11850,7 @@ GameObject:
   - component: {fileID: 717163781}
   - component: {fileID: 717163780}
   - component: {fileID: 717163782}
+  - component: {fileID: 717163783}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -11086,6 +11971,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &717163783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717163778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &721918875
 GameObject:
   m_ObjectHideFlags: 0
@@ -11098,6 +11999,7 @@ GameObject:
   - component: {fileID: 721918879}
   - component: {fileID: 721918878}
   - component: {fileID: 721918877}
+  - component: {fileID: 721918880}
   m_Layer: 5
   m_Name: 10
   m_TagString: Untagged
@@ -11277,6 +12179,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721918875}
   m_CullTransparentMesh: 1
+--- !u!114 &721918880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721918875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &728126450
 GameObject:
   m_ObjectHideFlags: 0
@@ -11408,6 +12326,7 @@ GameObject:
   - component: {fileID: 729848721}
   - component: {fileID: 729848720}
   - component: {fileID: 729848722}
+  - component: {fileID: 729848723}
   m_Layer: 5
   m_Name: Auto
   m_TagString: Untagged
@@ -11517,6 +12436,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &729848723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729848718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 0
+  hasText: 0
+  hasScale: 0
 --- !u!1 &747482023
 GameObject:
   m_ObjectHideFlags: 0
@@ -11663,6 +12598,7 @@ GameObject:
   - component: {fileID: 750479774}
   - component: {fileID: 750479773}
   - component: {fileID: 750479775}
+  - component: {fileID: 750479776}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -11783,6 +12719,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &750479776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750479771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &751154100
 GameObject:
   m_ObjectHideFlags: 0
@@ -11795,6 +12747,7 @@ GameObject:
   - component: {fileID: 751154103}
   - component: {fileID: 751154102}
   - component: {fileID: 751154104}
+  - component: {fileID: 751154105}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -11915,6 +12868,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &751154105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751154100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &760018343
 GameObject:
   m_ObjectHideFlags: 0
@@ -12060,6 +13029,7 @@ GameObject:
   - component: {fileID: 762141211}
   - component: {fileID: 762141213}
   - component: {fileID: 762141214}
+  - component: {fileID: 762141215}
   m_Layer: 5
   m_Name: Image (4)41
   m_TagString: Untagged
@@ -12193,11 +13163,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 32754678}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &762141215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762141209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &765144575
 GameObject:
   m_ObjectHideFlags: 0
@@ -12211,6 +13197,7 @@ GameObject:
   - component: {fileID: 765144577}
   - component: {fileID: 765144579}
   - component: {fileID: 765144580}
+  - component: {fileID: 765144581}
   m_Layer: 5
   m_Name: Image (3)16
   m_TagString: Untagged
@@ -12344,11 +13331,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 202933739}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &765144581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765144575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &766454362
 GameObject:
   m_ObjectHideFlags: 0
@@ -12436,6 +13439,7 @@ GameObject:
   - component: {fileID: 775255717}
   - component: {fileID: 775255716}
   - component: {fileID: 775255718}
+  - component: {fileID: 775255719}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -12556,6 +13560,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &775255719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775255714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &787199825
 GameObject:
   m_ObjectHideFlags: 0
@@ -12569,6 +13589,7 @@ GameObject:
   - component: {fileID: 787199827}
   - component: {fileID: 787199829}
   - component: {fileID: 787199830}
+  - component: {fileID: 787199831}
   m_Layer: 5
   m_Name: Image7
   m_TagString: Untagged
@@ -12702,11 +13723,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1722295542}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &787199831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &793094965
 GameObject:
   m_ObjectHideFlags: 0
@@ -12719,6 +13756,7 @@ GameObject:
   - component: {fileID: 793094968}
   - component: {fileID: 793094967}
   - component: {fileID: 793094969}
+  - component: {fileID: 793094970}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -12839,6 +13877,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &793094970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793094965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &799659174
 GameObject:
   m_ObjectHideFlags: 0
@@ -13180,6 +14234,7 @@ GameObject:
   - component: {fileID: 813011520}
   - component: {fileID: 813011522}
   - component: {fileID: 813011523}
+  - component: {fileID: 813011524}
   m_Layer: 5
   m_Name: Image (3)40
   m_TagString: Untagged
@@ -13313,11 +14368,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1400246743}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &813011524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813011518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &818841630
 GameObject:
   m_ObjectHideFlags: 0
@@ -13331,6 +14402,7 @@ GameObject:
   - component: {fileID: 818841632}
   - component: {fileID: 818841634}
   - component: {fileID: 818841635}
+  - component: {fileID: 818841636}
   m_Layer: 5
   m_Name: Image (5)6
   m_TagString: Untagged
@@ -13469,6 +14541,22 @@ MonoBehaviour:
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &818841636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818841630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &820290497
 GameObject:
   m_ObjectHideFlags: 0
@@ -13718,6 +14806,7 @@ GameObject:
   - component: {fileID: 827844678}
   - component: {fileID: 827844680}
   - component: {fileID: 827844681}
+  - component: {fileID: 827844682}
   m_Layer: 5
   m_Name: Image (4)35
   m_TagString: Untagged
@@ -13851,11 +14940,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 875561086}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &827844682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827844676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &835370612
 GameObject:
   m_ObjectHideFlags: 0
@@ -14003,6 +15108,7 @@ GameObject:
   - component: {fileID: 847876232}
   - component: {fileID: 847876231}
   - component: {fileID: 847876233}
+  - component: {fileID: 847876234}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -14123,6 +15229,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &847876234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847876229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &850945752
 GameObject:
   m_ObjectHideFlags: 0
@@ -14136,6 +15258,7 @@ GameObject:
   - component: {fileID: 850945754}
   - component: {fileID: 850945756}
   - component: {fileID: 850945757}
+  - component: {fileID: 850945758}
   m_Layer: 5
   m_Name: Image (1)14
   m_TagString: Untagged
@@ -14269,11 +15392,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1070896204}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &850945758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850945752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &858851164
 GameObject:
   m_ObjectHideFlags: 0
@@ -14287,6 +15426,7 @@ GameObject:
   - component: {fileID: 858851166}
   - component: {fileID: 858851168}
   - component: {fileID: 858851169}
+  - component: {fileID: 858851170}
   m_Layer: 5
   m_Name: Image37
   m_TagString: Untagged
@@ -14420,11 +15560,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 581287633}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &858851170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858851164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &862136986
 GameObject:
   m_ObjectHideFlags: 0
@@ -14474,6 +15630,7 @@ GameObject:
   - component: {fileID: 863645587}
   - component: {fileID: 863645589}
   - component: {fileID: 863645590}
+  - component: {fileID: 863645591}
   m_Layer: 5
   m_Name: Image (4)17
   m_TagString: Untagged
@@ -14607,11 +15764,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 64363744}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &863645591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863645585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &875561084
 GameObject:
   m_ObjectHideFlags: 0
@@ -14624,6 +15797,7 @@ GameObject:
   - component: {fileID: 875561087}
   - component: {fileID: 875561086}
   - component: {fileID: 875561088}
+  - component: {fileID: 875561089}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -14744,6 +15918,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &875561089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875561084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &879290718
 GameObject:
   m_ObjectHideFlags: 0
@@ -14756,6 +15946,7 @@ GameObject:
   - component: {fileID: 879290722}
   - component: {fileID: 879290721}
   - component: {fileID: 879290720}
+  - component: {fileID: 879290723}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -14935,6 +16126,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879290718}
   m_CullTransparentMesh: 1
+--- !u!114 &879290723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879290718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &881377912
 GameObject:
   m_ObjectHideFlags: 0
@@ -14947,6 +16154,7 @@ GameObject:
   - component: {fileID: 881377915}
   - component: {fileID: 881377914}
   - component: {fileID: 881377916}
+  - component: {fileID: 881377917}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -15067,6 +16275,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &881377917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881377912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &883321483
 GameObject:
   m_ObjectHideFlags: 0
@@ -15079,6 +16303,7 @@ GameObject:
   - component: {fileID: 883321486}
   - component: {fileID: 883321485}
   - component: {fileID: 883321487}
+  - component: {fileID: 883321488}
   m_Layer: 5
   m_Name: loadGameButton
   m_TagString: Untagged
@@ -15200,6 +16425,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &883321488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883321483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.2
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 0
 --- !u!1 &887741361
 GameObject:
   m_ObjectHideFlags: 0
@@ -15212,6 +16453,7 @@ GameObject:
   - component: {fileID: 887741364}
   - component: {fileID: 887741363}
   - component: {fileID: 887741365}
+  - component: {fileID: 887741366}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -15391,6 +16633,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &887741366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887741361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &904989740
 GameObject:
   m_ObjectHideFlags: 0
@@ -15404,6 +16662,7 @@ GameObject:
   - component: {fileID: 904989742}
   - component: {fileID: 904989744}
   - component: {fileID: 904989745}
+  - component: {fileID: 904989746}
   m_Layer: 5
   m_Name: Image (4)47
   m_TagString: Untagged
@@ -15537,11 +16796,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 2086401650}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &904989746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904989740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &942228326
 GameObject:
   m_ObjectHideFlags: 0
@@ -15554,6 +16829,7 @@ GameObject:
   - component: {fileID: 942228329}
   - component: {fileID: 942228328}
   - component: {fileID: 942228330}
+  - component: {fileID: 942228331}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -15674,6 +16950,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &942228331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942228326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &954145578
 GameObject:
   m_ObjectHideFlags: 0
@@ -15806,6 +17098,7 @@ GameObject:
   - component: {fileID: 959790530}
   - component: {fileID: 959790532}
   - component: {fileID: 959790533}
+  - component: {fileID: 959790534}
   m_Layer: 5
   m_Name: Image49
   m_TagString: Untagged
@@ -15939,11 +17232,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 313019613}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &959790534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959790528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &979339323
 GameObject:
   m_ObjectHideFlags: 0
@@ -15956,6 +17265,7 @@ GameObject:
   - component: {fileID: 979339326}
   - component: {fileID: 979339325}
   - component: {fileID: 979339327}
+  - component: {fileID: 979339328}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -16076,6 +17386,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &979339328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979339323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &988722143
 GameObject:
   m_ObjectHideFlags: 0
@@ -16089,6 +17415,7 @@ GameObject:
   - component: {fileID: 988722145}
   - component: {fileID: 988722147}
   - component: {fileID: 988722148}
+  - component: {fileID: 988722149}
   m_Layer: 5
   m_Name: Image (1)44
   m_TagString: Untagged
@@ -16222,11 +17549,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 158630444}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &988722149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988722143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1003743207
 GameObject:
   m_ObjectHideFlags: 0
@@ -16358,6 +17701,7 @@ GameObject:
   - component: {fileID: 1005356022}
   - component: {fileID: 1005356021}
   - component: {fileID: 1005356023}
+  - component: {fileID: 1005356024}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -16478,6 +17822,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1005356024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005356019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1012733766
 GameObject:
   m_ObjectHideFlags: 0
@@ -16565,6 +17925,7 @@ GameObject:
   - component: {fileID: 1013176936}
   - component: {fileID: 1013176935}
   - component: {fileID: 1013176937}
+  - component: {fileID: 1013176938}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -16685,6 +18046,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1013176938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013176933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1024880370
 GameObject:
   m_ObjectHideFlags: 0
@@ -16697,6 +18074,7 @@ GameObject:
   - component: {fileID: 1024880373}
   - component: {fileID: 1024880372}
   - component: {fileID: 1024880374}
+  - component: {fileID: 1024880375}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -16817,6 +18195,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1024880375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024880370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1026645315
 GameObject:
   m_ObjectHideFlags: 0
@@ -16926,6 +18320,7 @@ GameObject:
   - component: {fileID: 1054733432}
   - component: {fileID: 1054733431}
   - component: {fileID: 1054733430}
+  - component: {fileID: 1054733433}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -17105,6 +18500,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054733428}
   m_CullTransparentMesh: 1
+--- !u!114 &1054733433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054733428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1070896202
 GameObject:
   m_ObjectHideFlags: 0
@@ -17117,6 +18528,7 @@ GameObject:
   - component: {fileID: 1070896205}
   - component: {fileID: 1070896204}
   - component: {fileID: 1070896206}
+  - component: {fileID: 1070896207}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -17237,6 +18649,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1070896207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070896202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1080457740
 GameObject:
   m_ObjectHideFlags: 0
@@ -17348,6 +18776,7 @@ MonoBehaviour:
   confirmButton: {fileID: 1212942987}
   cancelButton: {fileID: 2552429}
   canChange: 0
+  cunnentSave: {fileID: 0}
 --- !u!1 &1083450935
 GameObject:
   m_ObjectHideFlags: 0
@@ -17613,6 +19042,7 @@ GameObject:
   - component: {fileID: 1094661342}
   - component: {fileID: 1094661341}
   - component: {fileID: 1094661343}
+  - component: {fileID: 1094661344}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -17733,6 +19163,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1094661344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094661339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1099630073
 GameObject:
   m_ObjectHideFlags: 0
@@ -17745,6 +19191,7 @@ GameObject:
   - component: {fileID: 1099630076}
   - component: {fileID: 1099630075}
   - component: {fileID: 1099630077}
+  - component: {fileID: 1099630078}
   m_Layer: 5
   m_Name: SettingButton
   m_TagString: Untagged
@@ -17866,6 +19313,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1099630078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099630073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.2
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 0
 --- !u!1 &1137857676
 GameObject:
   m_ObjectHideFlags: 0
@@ -18181,6 +19644,7 @@ GameObject:
   - component: {fileID: 1212942986}
   - component: {fileID: 1212942985}
   - component: {fileID: 1212942987}
+  - component: {fileID: 1212942988}
   m_Layer: 5
   m_Name: YES
   m_TagString: Untagged
@@ -18290,6 +19754,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1212942988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212942983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.2
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 0
 --- !u!1 &1230159783
 GameObject:
   m_ObjectHideFlags: 0
@@ -18303,6 +19783,7 @@ GameObject:
   - component: {fileID: 1230159785}
   - component: {fileID: 1230159787}
   - component: {fileID: 1230159788}
+  - component: {fileID: 1230159789}
   m_Layer: 5
   m_Name: Image (4)29
   m_TagString: Untagged
@@ -18436,11 +19917,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 619337580}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1230159789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230159783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1247439481
 GameObject:
   m_ObjectHideFlags: 0
@@ -18453,6 +19950,7 @@ GameObject:
   - component: {fileID: 1247439484}
   - component: {fileID: 1247439483}
   - component: {fileID: 1247439485}
+  - component: {fileID: 1247439486}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -18573,6 +20071,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1247439486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247439481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1251357066
 GameObject:
   m_ObjectHideFlags: 0
@@ -18585,6 +20099,7 @@ GameObject:
   - component: {fileID: 1251357069}
   - component: {fileID: 1251357068}
   - component: {fileID: 1251357070}
+  - component: {fileID: 1251357071}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -18705,6 +20220,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1251357071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251357066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1268543053
 GameObject:
   m_ObjectHideFlags: 0
@@ -18718,6 +20249,7 @@ GameObject:
   - component: {fileID: 1268543055}
   - component: {fileID: 1268543057}
   - component: {fileID: 1268543058}
+  - component: {fileID: 1268543059}
   m_Layer: 5
   m_Name: Image (2)21
   m_TagString: Untagged
@@ -18851,11 +20383,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1094661341}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1268543059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268543053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1273231862
 GameObject:
   m_ObjectHideFlags: 0
@@ -18868,6 +20416,7 @@ GameObject:
   - component: {fileID: 1273231865}
   - component: {fileID: 1273231864}
   - component: {fileID: 1273231866}
+  - component: {fileID: 1273231867}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -18988,6 +20537,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1273231867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273231862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1274043743
 GameObject:
   m_ObjectHideFlags: 0
@@ -19230,6 +20795,7 @@ GameObject:
   - component: {fileID: 1296056675}
   - component: {fileID: 1296056674}
   - component: {fileID: 1296056673}
+  - component: {fileID: 1296056676}
   m_Layer: 5
   m_Name: 4
   m_TagString: Untagged
@@ -19409,6 +20975,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296056671}
   m_CullTransparentMesh: 1
+--- !u!114 &1296056676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296056671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1335405787
 GameObject:
   m_ObjectHideFlags: 0
@@ -19521,6 +21103,7 @@ GameObject:
   - component: {fileID: 1335529940}
   - component: {fileID: 1335529939}
   - component: {fileID: 1335529941}
+  - component: {fileID: 1335529942}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -19641,6 +21224,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1335529942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335529937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1348256185
 GameObject:
   m_ObjectHideFlags: 0
@@ -19654,6 +21253,7 @@ GameObject:
   - component: {fileID: 1348256187}
   - component: {fileID: 1348256189}
   - component: {fileID: 1348256190}
+  - component: {fileID: 1348256191}
   m_Layer: 5
   m_Name: Image13
   m_TagString: Untagged
@@ -19787,11 +21387,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 215441284}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1348256191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348256185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1381838670
 GameObject:
   m_ObjectHideFlags: 0
@@ -19805,6 +21421,7 @@ GameObject:
   - component: {fileID: 1381838672}
   - component: {fileID: 1381838674}
   - component: {fileID: 1381838675}
+  - component: {fileID: 1381838676}
   m_Layer: 5
   m_Name: Image (5)48
   m_TagString: Untagged
@@ -19938,11 +21555,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 775255716}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1381838676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381838670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1393384894
 GameObject:
   m_ObjectHideFlags: 0
@@ -20074,6 +21707,7 @@ GameObject:
   - component: {fileID: 1395033196}
   - component: {fileID: 1395033195}
   - component: {fileID: 1395033197}
+  - component: {fileID: 1395033198}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -20194,6 +21828,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1395033198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395033193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1397832456
 GameObject:
   m_ObjectHideFlags: 0
@@ -20207,6 +21857,7 @@ GameObject:
   - component: {fileID: 1397832458}
   - component: {fileID: 1397832460}
   - component: {fileID: 1397832461}
+  - component: {fileID: 1397832462}
   m_Layer: 5
   m_Name: Image (4)11
   m_TagString: Untagged
@@ -20340,11 +21991,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 655261545}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1397832462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397832456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1400246741
 GameObject:
   m_ObjectHideFlags: 0
@@ -20357,6 +22024,7 @@ GameObject:
   - component: {fileID: 1400246744}
   - component: {fileID: 1400246743}
   - component: {fileID: 1400246745}
+  - component: {fileID: 1400246746}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -20477,6 +22145,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1400246746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400246741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1403681235
 GameObject:
   m_ObjectHideFlags: 0
@@ -20565,6 +22249,7 @@ GameObject:
   - component: {fileID: 1404596984}
   - component: {fileID: 1404596986}
   - component: {fileID: 1404596987}
+  - component: {fileID: 1404596988}
   m_Layer: 5
   m_Name: Image (4)59
   m_TagString: Untagged
@@ -20698,11 +22383,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 793094967}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1404596988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404596982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1406668274
 GameObject:
   m_ObjectHideFlags: 0
@@ -20761,6 +22462,7 @@ GameObject:
   - component: {fileID: 1414561598}
   - component: {fileID: 1414561597}
   - component: {fileID: 1414561599}
+  - component: {fileID: 1414561600}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -20881,6 +22583,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1414561600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414561595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1439955101
 GameObject:
   m_ObjectHideFlags: 0
@@ -21027,6 +22745,7 @@ GameObject:
   - component: {fileID: 1446718301}
   - component: {fileID: 1446718300}
   - component: {fileID: 1446718302}
+  - component: {fileID: 1446718303}
   m_Layer: 5
   m_Name: 4
   m_TagString: Untagged
@@ -21206,6 +22925,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1446718303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446718298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1447580142
 GameObject:
   m_ObjectHideFlags: 0
@@ -21219,6 +22954,7 @@ GameObject:
   - component: {fileID: 1447580144}
   - component: {fileID: 1447580146}
   - component: {fileID: 1447580147}
+  - component: {fileID: 1447580148}
   m_Layer: 5
   m_Name: Image (5)24
   m_TagString: Untagged
@@ -21352,11 +23088,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 410348505}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1447580148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447580142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1459929208
 GameObject:
   m_ObjectHideFlags: 0
@@ -21427,6 +23179,7 @@ GameObject:
   - component: {fileID: 1460724056}
   - component: {fileID: 1460724055}
   - component: {fileID: 1460724057}
+  - component: {fileID: 1460724058}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -21547,6 +23300,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1460724058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460724053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1482356015
 GameObject:
   m_ObjectHideFlags: 0
@@ -21560,6 +23329,7 @@ GameObject:
   - component: {fileID: 1482356017}
   - component: {fileID: 1482356019}
   - component: {fileID: 1482356020}
+  - component: {fileID: 1482356021}
   m_Layer: 5
   m_Name: Image (3)28
   m_TagString: Untagged
@@ -21693,11 +23463,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 2051550324}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1482356021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482356015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1487153254
 GameObject:
   m_ObjectHideFlags: 0
@@ -21710,6 +23496,7 @@ GameObject:
   - component: {fileID: 1487153258}
   - component: {fileID: 1487153257}
   - component: {fileID: 1487153256}
+  - component: {fileID: 1487153259}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -21821,8 +23608,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4143972351
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.9647059}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -21889,6 +23676,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487153254}
   m_CullTransparentMesh: 1
+--- !u!114 &1487153259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487153254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1509678755
 GameObject:
   m_ObjectHideFlags: 0
@@ -22497,6 +24300,7 @@ GameObject:
   - component: {fileID: 1562026556}
   - component: {fileID: 1562026555}
   - component: {fileID: 1562026557}
+  - component: {fileID: 1562026558}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -22617,6 +24421,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1562026558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562026553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1578871484
 GameObject:
   m_ObjectHideFlags: 0
@@ -22957,6 +24777,7 @@ GameObject:
   - component: {fileID: 1598944188}
   - component: {fileID: 1598944187}
   - component: {fileID: 1598944189}
+  - component: {fileID: 1598944190}
   m_Layer: 5
   m_Name: 5
   m_TagString: Untagged
@@ -23136,6 +24957,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1598944190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598944185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1599050225
 GameObject:
   m_ObjectHideFlags: 0
@@ -23149,6 +24986,7 @@ GameObject:
   - component: {fileID: 1599050227}
   - component: {fileID: 1599050229}
   - component: {fileID: 1599050230}
+  - component: {fileID: 1599050231}
   m_Layer: 5
   m_Name: Image (1)20
   m_TagString: Untagged
@@ -23282,11 +25120,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1923597562}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1599050231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599050225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1601104147
 GameObject:
   m_ObjectHideFlags: 0
@@ -23299,6 +25153,7 @@ GameObject:
   - component: {fileID: 1601104150}
   - component: {fileID: 1601104149}
   - component: {fileID: 1601104151}
+  - component: {fileID: 1601104152}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -23419,6 +25274,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1601104152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601104147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1604894853
 GameObject:
   m_ObjectHideFlags: 0
@@ -23467,6 +25338,7 @@ GameObject:
   - component: {fileID: 1614922474}
   - component: {fileID: 1614922473}
   - component: {fileID: 1614922475}
+  - component: {fileID: 1614922476}
   m_Layer: 5
   m_Name: Setting
   m_TagString: Untagged
@@ -23576,6 +25448,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1614922476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614922471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 0
+  hasText: 0
+  hasScale: 0
 --- !u!1 &1617432475
 GameObject:
   m_ObjectHideFlags: 0
@@ -23842,6 +25730,7 @@ GameObject:
   - component: {fileID: 1627146521}
   - component: {fileID: 1627146523}
   - component: {fileID: 1627146524}
+  - component: {fileID: 1627146525}
   m_Layer: 5
   m_Name: Image (1)2
   m_TagString: Untagged
@@ -23980,6 +25869,22 @@ MonoBehaviour:
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1627146525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627146519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1627628343
 GameObject:
   m_ObjectHideFlags: 0
@@ -23993,6 +25898,7 @@ GameObject:
   - component: {fileID: 1627628345}
   - component: {fileID: 1627628347}
   - component: {fileID: 1627628348}
+  - component: {fileID: 1627628349}
   m_Layer: 5
   m_Name: Image (2)27
   m_TagString: Untagged
@@ -24126,11 +26032,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 474386415}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1627628349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627628343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1632504552
 GameObject:
   m_ObjectHideFlags: 0
@@ -24144,6 +26066,7 @@ GameObject:
   - component: {fileID: 1632504554}
   - component: {fileID: 1632504556}
   - component: {fileID: 1632504557}
+  - component: {fileID: 1632504558}
   m_Layer: 5
   m_Name: Image31
   m_TagString: Untagged
@@ -24277,11 +26200,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 2145657624}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1632504558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632504552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1638262466
 GameObject:
   m_ObjectHideFlags: 0
@@ -24294,6 +26233,7 @@ GameObject:
   - component: {fileID: 1638262469}
   - component: {fileID: 1638262468}
   - component: {fileID: 1638262470}
+  - component: {fileID: 1638262471}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -24414,6 +26354,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1638262471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638262466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1648485148
 GameObject:
   m_ObjectHideFlags: 0
@@ -24426,6 +26382,7 @@ GameObject:
   - component: {fileID: 1648485151}
   - component: {fileID: 1648485150}
   - component: {fileID: 1648485152}
+  - component: {fileID: 1648485153}
   m_Layer: 5
   m_Name: 10
   m_TagString: Untagged
@@ -24605,6 +26562,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1648485153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648485148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1657961943
 GameObject:
   m_ObjectHideFlags: 0
@@ -24618,6 +26591,7 @@ GameObject:
   - component: {fileID: 1657961945}
   - component: {fileID: 1657961947}
   - component: {fileID: 1657961948}
+  - component: {fileID: 1657961949}
   m_Layer: 5
   m_Name: Image (5)42
   m_TagString: Untagged
@@ -24751,11 +26725,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 750479773}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1657961949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657961943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1678349026
 GameObject:
   m_ObjectHideFlags: 0
@@ -24768,6 +26758,7 @@ GameObject:
   - component: {fileID: 1678349029}
   - component: {fileID: 1678349028}
   - component: {fileID: 1678349030}
+  - component: {fileID: 1678349031}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -24888,6 +26879,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1678349031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678349026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1679009865
 GameObject:
   m_ObjectHideFlags: 0
@@ -24900,6 +26907,7 @@ GameObject:
   - component: {fileID: 1679009869}
   - component: {fileID: 1679009868}
   - component: {fileID: 1679009867}
+  - component: {fileID: 1679009870}
   m_Layer: 5
   m_Name: 7
   m_TagString: Untagged
@@ -25079,6 +27087,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679009865}
   m_CullTransparentMesh: 1
+--- !u!114 &1679009870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679009865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1698064850
 GameObject:
   m_ObjectHideFlags: 0
@@ -25092,6 +27116,7 @@ GameObject:
   - component: {fileID: 1698064852}
   - component: {fileID: 1698064854}
   - component: {fileID: 1698064855}
+  - component: {fileID: 1698064856}
   m_Layer: 5
   m_Name: Image (3)10
   m_TagString: Untagged
@@ -25225,11 +27250,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 286461773}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1698064856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698064850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1703997642
 GameObject:
   m_ObjectHideFlags: 0
@@ -25323,6 +27364,7 @@ GameObject:
   - component: {fileID: 1712816409}
   - component: {fileID: 1712816408}
   - component: {fileID: 1712816410}
+  - component: {fileID: 1712816411}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -25443,6 +27485,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1712816411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712816406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1715911896
 GameObject:
   m_ObjectHideFlags: 0
@@ -25589,6 +27647,7 @@ GameObject:
   - component: {fileID: 1722295543}
   - component: {fileID: 1722295542}
   - component: {fileID: 1722295544}
+  - component: {fileID: 1722295545}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -25709,6 +27768,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1722295545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722295540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1723918237
 GameObject:
   m_ObjectHideFlags: 0
@@ -25824,6 +27899,7 @@ GameObject:
   - component: {fileID: 1759761856}
   - component: {fileID: 1759761858}
   - component: {fileID: 1759761859}
+  - component: {fileID: 1759761860}
   m_Layer: 5
   m_Name: Image55
   m_TagString: Untagged
@@ -25957,11 +28033,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1678349028}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1759761860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759761854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1762060082
 GameObject:
   m_ObjectHideFlags: 0
@@ -26107,6 +28199,8 @@ GameObject:
   - component: {fileID: 1762742661}
   - component: {fileID: 1762742663}
   - component: {fileID: 1762742662}
+  - component: {fileID: 1762742665}
+  - component: {fileID: 1762742664}
   m_Layer: 5
   m_Name: newGameButton
   m_TagString: Untagged
@@ -26172,6 +28266,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762742660}
   m_CullTransparentMesh: 1
+--- !u!114 &1762742664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762742660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.2
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 0
+--- !u!114 &1762742665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762742660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1762742662}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1769363032
 GameObject:
   m_ObjectHideFlags: 0
@@ -26185,6 +28339,7 @@ GameObject:
   - component: {fileID: 1769363034}
   - component: {fileID: 1769363036}
   - component: {fileID: 1769363037}
+  - component: {fileID: 1769363038}
   m_Layer: 5
   m_Name: Image (2)33
   m_TagString: Untagged
@@ -26318,11 +28473,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 230405676}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1769363038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769363032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1772972328
 GameObject:
   m_ObjectHideFlags: 0
@@ -26336,6 +28507,7 @@ GameObject:
   - component: {fileID: 1772972330}
   - component: {fileID: 1772972332}
   - component: {fileID: 1772972333}
+  - component: {fileID: 1772972334}
   m_Layer: 5
   m_Name: Image (3)52
   m_TagString: Untagged
@@ -26469,11 +28641,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 942228328}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1772972334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772972328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1793089771
 GameObject:
   m_ObjectHideFlags: 0
@@ -26487,6 +28675,7 @@ GameObject:
   - component: {fileID: 1793089773}
   - component: {fileID: 1793089775}
   - component: {fileID: 1793089776}
+  - component: {fileID: 1793089777}
   m_Layer: 5
   m_Name: Image (2)51
   m_TagString: Untagged
@@ -26620,11 +28809,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1638262468}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1793089777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793089771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1816756411
 GameObject:
   m_ObjectHideFlags: 0
@@ -26772,6 +28977,7 @@ GameObject:
   - component: {fileID: 1843225903}
   - component: {fileID: 1843225905}
   - component: {fileID: 1843225906}
+  - component: {fileID: 1843225907}
   m_Layer: 5
   m_Name: Image (2)15
   m_TagString: Untagged
@@ -26905,11 +29111,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 609983755}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1843225907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843225901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1850047271
 GameObject:
   m_ObjectHideFlags: 0
@@ -27042,6 +29264,7 @@ GameObject:
   - component: {fileID: 1855258010}
   - component: {fileID: 1855258009}
   - component: {fileID: 1855258011}
+  - component: {fileID: 1855258012}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -27162,6 +29385,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1855258012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855258007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1865104562
 GameObject:
   m_ObjectHideFlags: 0
@@ -27175,6 +29414,7 @@ GameObject:
   - component: {fileID: 1865104564}
   - component: {fileID: 1865104566}
   - component: {fileID: 1865104567}
+  - component: {fileID: 1865104568}
   m_Layer: 5
   m_Name: Image (3)58
   m_TagString: Untagged
@@ -27308,11 +29548,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1395033195}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1865104568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865104562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1870478141
 GameObject:
   m_ObjectHideFlags: 0
@@ -27520,6 +29776,7 @@ GameObject:
   - component: {fileID: 1876282016}
   - component: {fileID: 1876282018}
   - component: {fileID: 1876282019}
+  - component: {fileID: 1876282020}
   m_Layer: 5
   m_Name: Image (1)32
   m_TagString: Untagged
@@ -27653,11 +29910,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1273231864}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1876282020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876282014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1888627911
 GameObject:
   m_ObjectHideFlags: 0
@@ -27670,6 +29943,7 @@ GameObject:
   - component: {fileID: 1888627914}
   - component: {fileID: 1888627913}
   - component: {fileID: 1888627915}
+  - component: {fileID: 1888627916}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -27790,6 +30064,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1888627916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888627911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1903457086
 GameObject:
   m_ObjectHideFlags: 0
@@ -27802,6 +30092,7 @@ GameObject:
   - component: {fileID: 1903457090}
   - component: {fileID: 1903457089}
   - component: {fileID: 1903457088}
+  - component: {fileID: 1903457091}
   m_Layer: 5
   m_Name: 8
   m_TagString: Untagged
@@ -27981,6 +30272,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903457086}
   m_CullTransparentMesh: 1
+--- !u!114 &1903457091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903457086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1904420430
 GameObject:
   m_ObjectHideFlags: 0
@@ -27993,6 +30300,7 @@ GameObject:
   - component: {fileID: 1904420433}
   - component: {fileID: 1904420432}
   - component: {fileID: 1904420434}
+  - component: {fileID: 1904420435}
   m_Layer: 5
   m_Name: History
   m_TagString: Untagged
@@ -28102,6 +30410,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1904420435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904420430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 0
+  hasText: 0
+  hasScale: 0
 --- !u!1 &1923597560
 GameObject:
   m_ObjectHideFlags: 0
@@ -28114,6 +30438,7 @@ GameObject:
   - component: {fileID: 1923597563}
   - component: {fileID: 1923597562}
   - component: {fileID: 1923597564}
+  - component: {fileID: 1923597565}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -28234,6 +30559,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1923597565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923597560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1929892239
 GameObject:
   m_ObjectHideFlags: 0
@@ -28380,6 +30721,7 @@ GameObject:
   - component: {fileID: 1944005655}
   - component: {fileID: 1944005654}
   - component: {fileID: 1944005653}
+  - component: {fileID: 1944005656}
   m_Layer: 5
   m_Name: 6
   m_TagString: Untagged
@@ -28559,6 +30901,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944005651}
   m_CullTransparentMesh: 1
+--- !u!114 &1944005656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944005651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &1946209798
 GameObject:
   m_ObjectHideFlags: 0
@@ -28647,6 +31005,7 @@ GameObject:
   - component: {fileID: 1958235063}
   - component: {fileID: 1958235065}
   - component: {fileID: 1958235066}
+  - component: {fileID: 1958235067}
   m_Layer: 5
   m_Name: Image (1)8
   m_TagString: Untagged
@@ -28780,11 +31139,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 847876231}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1958235067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958235061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1959470670
 GameObject:
   m_ObjectHideFlags: 0
@@ -28798,6 +31173,7 @@ GameObject:
   - component: {fileID: 1959470672}
   - component: {fileID: 1959470674}
   - component: {fileID: 1959470675}
+  - component: {fileID: 1959470676}
   m_Layer: 5
   m_Name: Image (1)38
   m_TagString: Untagged
@@ -28931,11 +31307,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1024880372}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1959470676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959470670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1966851106
 GameObject:
   m_ObjectHideFlags: 0
@@ -29083,6 +31475,7 @@ GameObject:
   - component: {fileID: 1967126254}
   - component: {fileID: 1967126256}
   - component: {fileID: 1967126257}
+  - component: {fileID: 1967126258}
   m_Layer: 5
   m_Name: Image (3)4
   m_TagString: Untagged
@@ -29221,6 +31614,22 @@ MonoBehaviour:
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1967126258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967126252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &1978144193
 GameObject:
   m_ObjectHideFlags: 0
@@ -29488,6 +31897,7 @@ GameObject:
   - component: {fileID: 1994487158}
   - component: {fileID: 1994487160}
   - component: {fileID: 1994487161}
+  - component: {fileID: 1994487162}
   m_Layer: 5
   m_Name: Image (5)60
   m_TagString: Untagged
@@ -29621,11 +32031,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1562026555}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &1994487162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994487156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2006188394
 GameObject:
   m_ObjectHideFlags: 0
@@ -29832,6 +32258,7 @@ GameObject:
   - component: {fileID: 2014351455}
   - component: {fileID: 2014351454}
   - component: {fileID: 2014351456}
+  - component: {fileID: 2014351457}
   m_Layer: 5
   m_Name: ReturnButton
   m_TagString: Untagged
@@ -29953,6 +32380,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2014351457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014351452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.2
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 0
 --- !u!1 &2016760109
 GameObject:
   m_ObjectHideFlags: 0
@@ -29965,6 +32408,7 @@ GameObject:
   - component: {fileID: 2016760112}
   - component: {fileID: 2016760111}
   - component: {fileID: 2016760113}
+  - component: {fileID: 2016760114}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -30085,6 +32529,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2016760114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016760109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2017797031
 GameObject:
   m_ObjectHideFlags: 0
@@ -30216,6 +32676,7 @@ GameObject:
   - component: {fileID: 2017917329}
   - component: {fileID: 2017917328}
   - component: {fileID: 2017917330}
+  - component: {fileID: 2017917331}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -30336,6 +32797,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2017917331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017917326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2018813916
 GameObject:
   m_ObjectHideFlags: 0
@@ -30348,6 +32825,7 @@ GameObject:
   - component: {fileID: 2018813919}
   - component: {fileID: 2018813918}
   - component: {fileID: 2018813920}
+  - component: {fileID: 2018813921}
   m_Layer: 5
   m_Name: exitButton
   m_TagString: Untagged
@@ -30469,6 +32947,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2018813921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018813916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.2
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 0
 --- !u!1 &2027693969
 GameObject:
   m_ObjectHideFlags: 0
@@ -30482,6 +32976,7 @@ GameObject:
   - component: {fileID: 2027693971}
   - component: {fileID: 2027693973}
   - component: {fileID: 2027693974}
+  - component: {fileID: 2027693975}
   m_Layer: 5
   m_Name: Image (1)56
   m_TagString: Untagged
@@ -30615,11 +33110,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 1712816408}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &2027693975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027693969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2032208027
 GameObject:
   m_ObjectHideFlags: 0
@@ -30633,6 +33144,7 @@ GameObject:
   - component: {fileID: 2032208029}
   - component: {fileID: 2032208031}
   - component: {fileID: 2032208032}
+  - component: {fileID: 2032208033}
   m_Layer: 5
   m_Name: Image (1)26
   m_TagString: Untagged
@@ -30766,11 +33278,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconSlotSave: {fileID: 0}
-  iconSlotLoad: {fileID: 0}
+  iconSlotLoad: {fileID: 2111012024}
   settingManager: {fileID: 0}
   button: {fileID: 0}
   saveload: {fileID: 0}
   gameObjectName: 
+--- !u!114 &2032208033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032208027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2036562534
 GameObject:
   m_ObjectHideFlags: 0
@@ -30783,6 +33311,7 @@ GameObject:
   - component: {fileID: 2036562537}
   - component: {fileID: 2036562536}
   - component: {fileID: 2036562538}
+  - component: {fileID: 2036562539}
   m_Layer: 5
   m_Name: 7
   m_TagString: Untagged
@@ -30962,6 +33491,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2036562539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036562534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &2051550322
 GameObject:
   m_ObjectHideFlags: 0
@@ -30974,6 +33519,7 @@ GameObject:
   - component: {fileID: 2051550325}
   - component: {fileID: 2051550324}
   - component: {fileID: 2051550326}
+  - component: {fileID: 2051550327}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -31094,6 +33640,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2051550327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051550322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2060127749
 GameObject:
   m_ObjectHideFlags: 0
@@ -31346,6 +33908,7 @@ GameObject:
   - component: {fileID: 2086401651}
   - component: {fileID: 2086401650}
   - component: {fileID: 2086401652}
+  - component: {fileID: 2086401653}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -31466,6 +34029,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2086401653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086401648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2099846703
 GameObject:
   m_ObjectHideFlags: 0
@@ -31612,6 +34191,7 @@ GameObject:
   - component: {fileID: 2107542585}
   - component: {fileID: 2107542584}
   - component: {fileID: 2107542586}
+  - component: {fileID: 2107542587}
   m_Layer: 5
   m_Name: 8
   m_TagString: Untagged
@@ -31791,6 +34371,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2107542587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107542582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 0.3
+  normalOpacity: 1
+  hasText: 1
+  hasScale: 0
 --- !u!1 &2111012022
 GameObject:
   m_ObjectHideFlags: 0
@@ -31803,6 +34399,7 @@ GameObject:
   - component: {fileID: 2111012025}
   - component: {fileID: 2111012024}
   - component: {fileID: 2111012026}
+  - component: {fileID: 2111012027}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -31923,6 +34520,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2111012027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111012022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2116391587
 GameObject:
   m_ObjectHideFlags: 0
@@ -31935,6 +34548,7 @@ GameObject:
   - component: {fileID: 2116391590}
   - component: {fileID: 2116391589}
   - component: {fileID: 2116391591}
+  - component: {fileID: 2116391592}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -32055,6 +34669,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2116391592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116391587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1 &2145657622
 GameObject:
   m_ObjectHideFlags: 0
@@ -32067,6 +34697,7 @@ GameObject:
   - component: {fileID: 2145657625}
   - component: {fileID: 2145657624}
   - component: {fileID: 2145657626}
+  - component: {fileID: 2145657627}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -32187,6 +34818,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2145657627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145657622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff29f217f8394429dfa83883412661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverOpacity: 1.1
+  normalOpacity: 1
+  hasText: 0
+  hasScale: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
