@@ -5,6 +5,10 @@ public class SaveSlotsManager : MonoBehaviour
 {
     public List<Slots> slots = new List<Slots>();
 
+    private void Start()
+    {
+        CurenntSlotActivate(0);
+    }
 
     public void CurenntSlotActivate(int index)
     {
